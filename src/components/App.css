@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+  min-height: 100vh;
+ 
+}
+
+h1 {
+
+  font-family: "Lobster", cursive;
+  
+}
+
+
+
+.navbar-sec{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.inner{
+  margin: 0;
+  min-height: 70vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(74, 225, 241, 0.7),
+      rgba(105, 199, 211, 0.7)
+    ),
+    url(https://blogs.unsw.edu.au/nowideas/files/2019/03/equilibrio-vida-trabajo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.inner2 {
+  margin: 0;
+  min-height: 18vh;
+  width: 100vw;
+  background-image: linear-gradient(
+      rgba(74, 225, 241, 0.7),
+      rgba(105, 199, 211, 0.7)
+    ),
+    url(https://blogs.unsw.edu.au/nowideas/files/2019/03/equilibrio-vida-trabajo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_icons {
+  font-size: 20px;
+}
+[class*="title"] {
+  color: #17a2b8;
+  font-weight: 700;
+}
+
+.card__title {
+  text-align: center;
+  margin: 55px 0 0 0;
+}
+
+.cards-img {
+  width: 25px;
+  height: 25px;
+}
+
+.gravatar{
+  width: 250px;
+  height: 250px;
+}
+
+.cardSize{
+  width: 300px;
+  height: auto;
+}
+
+.hola{
+  width: 300px;
+  height: auto;
+  word-wrap: break-word;
+}
+
+.footer{
+  position: relative;
+  top: 30%;
+}
